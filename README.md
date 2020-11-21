@@ -1,14 +1,15 @@
 # MyName Search Engine
 
 # Requirements
-[x] First Java Application  Implementation  and Execution on Docker
-[x] Docker to Local (or GCP) Cluster Communication
-[x] Inverted Indexing MapReduce Implementation  and Execution on the Cluster  (GCP)
-[x] Term and Top-N  Search
+[x]. First Java Application  Implementation  and Execution on Docker
+[x]. Docker to Local (or GCP) Cluster Communication
+[x]. Inverted Indexing MapReduce Implementation  and Execution on the Cluster  (GCP)
+[x]. Term and Top-N  Search
 
 # Getting Started
 
 ## Prerequisites
+You will need to download both Docker and XMing onto your machine.
 
 Docker : https://hub.docker.com/editions/community/docker-ce-desktop-windows/ 
 
@@ -19,15 +20,22 @@ XMing (for GUi) : XMing : http://www.straightrunning.com/XmingNotes/
 
 ## Pulling From Docker
 
-'docker pull qic28/searchengine'
+Pull from Docker repository using command
+
+```bash
+docker pull qic28/searchengine
+'''
 
 ## Running Program
-
+```bash
 'docker run -e DISPLAY=192.168.56.1:0.0 qic28/searchengine'  
+'''
 
 or  
 
+```bash
 'docker run -e DISPLAY=<IP address added to X0.hosts> qic28/searchengine'
+'''
 
 ## Video
 
