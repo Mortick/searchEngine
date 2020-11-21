@@ -22,20 +22,21 @@ XMing (for GUi) : XMing : http://www.straightrunning.com/XmingNotes/
 
 Pull from Docker repository using command
 
-```bash
-docker pull qic28/searchengine
-'''
+
+`docker pull qic28/searchengine`
+
 
 ## Running Program
-```bash
-'docker run -e DISPLAY=192.168.56.1:0.0 qic28/searchengine'  
-'''
+
+`docker run -e DISPLAY=192.168.56.1:0.0 qic28/searchengine`  
 
 or  
 
-```bash
-'docker run -e DISPLAY=<IP address added to X0.hosts> qic28/searchengine'
-'''
+`docker run -e DISPLAY=<IP address added to X0.hosts> qic28/searchengine`
+
 
 ## Video
 
+### [OneDrive](https://pitt-my.sharepoint.com/:v:/g/personal/qic28_pitt_edu/Edz_srMLajhNtIruI0ynQ-oB69vstH2ARLYGPLr_aeBoFA?e=BaZMgO)
+
+### [Youtube Link](https://youtu.be/67K2fMPjf80)
