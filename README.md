@@ -1,10 +1,10 @@
 # MyName Search Engine
 
 # Requirements
-[x]. First Java Application  Implementation  and Execution on Docker
-[x]. Docker to Local (or GCP) Cluster Communication
-[x]. Inverted Indexing MapReduce Implementation  and Execution on the Cluster  (GCP)
-[x]. Term and Top-N  Search
+-[x] First Java Application  Implementation  and Execution on Docker
+-[x] Docker to Local (or GCP) Cluster Communication
+-[x] Inverted Indexing MapReduce Implementation  and Execution on the Cluster  (GCP)
+-[x] Term and Top-N  Search
 
 # Getting Started
 
